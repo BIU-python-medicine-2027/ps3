@@ -26,7 +26,7 @@ $$\pi = 4 \sum_{n=0}^{\infty} \frac{(-1)^n}{2n+1}$$
 - <a href="https://colab.research.google.com/github/BIU-python-medicine-2027/ps3/blob/main/edge_case_exercise.ipynb" target="_blank" rel="noopener noreferrer">Edge cases notebook</a>
 - <a href="https://colab.research.google.com/github/BIU-python-medicine-2027/ps3/blob/main/leibniz_series_exercise.ipynb" target="_blank" rel="noopener noreferrer">Leibniz notebook</a>
 
-Notebooks are not graded — only the `.py` files count.
+Notebooks are not graded — only the `.py` files count. Each notebook ends with a **self-check** cell that runs the same cases as the autograder (expected / got / hint) — run it before copying your code into the `.py` file.
 
 ## Submit
 
@@ -36,7 +36,14 @@ Notebooks are not graded — only the `.py` files count.
 
 ## Grading — 10 points
 
+Points are split across cases; a failing case shows the exact input, expected value, your value, and a hint in the autograding **Details**.
+
 | Check | Points |
 | --- | ---: |
-| `move` (edge cases) | 5 |
-| `approximate_pi` | 5 |
+| `move` — 1 in the middle | 1 |
+| `move` — 1 at the left edge, move left | 1 |
+| `move` — 1 at the right edge, move right | 1 |
+| `move` — 1 at an edge, move inward | 1 |
+| `move` — single-element list | 1 |
+| `approximate_pi` — `n = 1`, `5`, `99`, `999` | 1 each |
+| `approximate_pi` — `n = 100000` is close to `math.pi` | 1 |

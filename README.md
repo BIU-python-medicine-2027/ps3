@@ -23,8 +23,8 @@ $$\pi = 4 \sum_{n=0}^{\infty} \frac{(-1)^n}{2n+1}$$
 
 ## Practice in Colab (optional)
 
-- [Edge cases notebook](https://colab.research.google.com/github/BIU-python-medicine-2027/ps3/blob/main/edge_case_exercise.ipynb)
-- [Leibniz notebook](https://colab.research.google.com/github/BIU-python-medicine-2027/ps3/blob/main/leibniz_series_exercise.ipynb)
+- <a href="https://colab.research.google.com/github/BIU-python-medicine-2027/ps3/blob/main/edge_case_exercise.ipynb" target="_blank" rel="noopener noreferrer">Edge cases notebook</a>
+- <a href="https://colab.research.google.com/github/BIU-python-medicine-2027/ps3/blob/main/leibniz_series_exercise.ipynb" target="_blank" rel="noopener noreferrer">Leibniz notebook</a>
 
 Notebooks are not graded — only the `.py` files count.
 

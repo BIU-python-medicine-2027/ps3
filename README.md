@@ -1,0 +1,42 @@
+# PS3 — Edge cases and approximating π
+
+Two short exercises on lists and loops.
+
+## What to change
+
+Edit these two files only:
+
+### 1. `edge_case_exercise.py` — `move(my_list, direction)`
+
+`my_list` is zeros with a single `1`. Move the `1` `"left"` or `"right"`. If the move would leave the list, leave the `1` in place.
+
+```python
+move([0, 0, 0, 1, 0], "right")  # [0, 0, 0, 0, 1]
+move([1, 0, 0, 0, 0], "left")   # [1, 0, 0, 0, 0]
+```
+
+### 2. `leibniz_series_exercise.py` — `approximate_pi(n_terms)`
+
+Approximate π with the first `n_terms` of the Leibniz series:
+
+$$\pi = 4 \sum_{n=0}^{\infty} \frac{(-1)^n}{2n+1}$$
+
+## Practice in Colab (optional)
+
+- [Edge cases notebook](https://colab.research.google.com/github/BIU-python-medicine-2027/ps3/blob/main/edge_case_exercise.ipynb)
+- [Leibniz notebook](https://colab.research.google.com/github/BIU-python-medicine-2027/ps3/blob/main/leibniz_series_exercise.ipynb)
+
+Notebooks are not graded — only the `.py` files count.
+
+## Submit
+
+1. Accept the Classroom 50 assignment.
+2. Edit the two `.py` files, then **Commit changes**.
+3. Check the latest autograding run for your score.
+
+## Grading — 10 points
+
+| Check | Points |
+| --- | ---: |
+| `move` (edge cases) | 5 |
+| `approximate_pi` | 5 |
